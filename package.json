@@ -1,0 +1,19 @@
+{
+  "name": "paperkern-core",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": "git@github.com:RavinduSachintha/paperkern-core.git",
+  "author": "RavinduSachintha <ravindusachintha53@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
