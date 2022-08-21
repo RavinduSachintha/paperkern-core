@@ -1,0 +1,1 @@
+export { UrlLink } from "./url-link.type";

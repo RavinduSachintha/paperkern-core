@@ -11,11 +11,15 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "prebuild": "tsc -b --clean",
     "build": "tsc -b",
     "clean": "tsc -b --clean",
     "watch": "tsc -w"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   }
 }
